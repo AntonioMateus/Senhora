@@ -44,7 +44,26 @@
         android:layout_height="wrap_content"
         android:text="Submeter"
         android:id="@+id/submit"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="47dp"
         android:layout_below="@+id/passwordRegisterEditText"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exibir lista"
+        android:id="@+id/exibir"
+        android:layout_alignTop="@+id/submit"
+        android:layout_alignEnd="@+id/passwordRegisterEditText"
+        android:layout_marginEnd="47dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/submit"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
 </RelativeLayout>
